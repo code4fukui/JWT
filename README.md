@@ -1,6 +1,6 @@
 # JWT with EdDSA on Deno
 
-sessionless server access by JWT
+Session-less server access with JWT
 
 ## Usage
 
