@@ -26,3 +26,5 @@ deno run -A post.js
 
 ## ライセンス
 MIT License
+
+Copyright (c) 2023 Taisuke Fukuno
