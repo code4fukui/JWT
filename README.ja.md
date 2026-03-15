@@ -1,13 +1,11 @@
 # JWT with EdDSA on Deno
+セッションレスのサーバーアクセスを実現するJWT。
 
-Session-less server access with JWT.
+## 機能
+- EdDSAを使ったJWT生成と検証
+- Denoでの使用に最適化
 
-## Features
-- JWT generation and verification using EdDSA
-- Optimized for use with Deno
-
-## Usage
-
+## 使い方
 ```JavaScript
 import { JWT } from "./JWT.js";
 
@@ -17,8 +15,7 @@ const res = await jwt.fetchJSON("http://localhost:8888/api/test", data);
 console.log(res);
 ```
 
-## Test
-
+## テスト
 ```sh
 deno run -A server.js 8888
 ```
@@ -27,8 +24,5 @@ deno run -A server.js 8888
 deno run -A post.js
 ```
 
-## License
-
+## ライセンス
 MIT License
-
-Copyright (c) 2023 Taisuke Fukuno
