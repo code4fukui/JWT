@@ -31,6 +31,4 @@ deno run -A post.js
 
 ## License
 
-MIT License
-
-Copyright (c) 2023 Taisuke Fukuno
+MIT License — see [LICENSE](LICENSE).
