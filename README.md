@@ -1,6 +1,12 @@
 # JWT with EdDSA on Deno
 
-Session-less server access with JWT
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+Session-less server access with JWT.
+
+## Features
+- JWT generation and verification using EdDSA
+- Optimized for use with Deno
 
 ## Usage
 
@@ -22,3 +28,7 @@ deno run -A server.js 8888
 ```sh
 deno run -A post.js
 ```
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
